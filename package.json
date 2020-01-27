@@ -1,0 +1,31 @@
+{
+  "name": "personal-website-final",
+  "version": "1.0.0",
+  "description": "Personal-Website-Final",
+  "scripts": {
+    "dev": "next",
+    "build": "next build && next export"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UncleBen69/Personal-Website-Final.git"
+  },
+  "keywords": [
+    "Vadim",
+    "Alexeev",
+    "Vadim A",
+    "VadimA",
+    "Vadim Alexeev",
+    "Valexeev"
+  ],
+  "author": "Vadim Alexeev",
+  "bugs": {
+    "url": "https://github.com/UncleBen69/Personal-Website-Final/issues"
+  },
+  "homepage": "https://github.com/UncleBen69/Personal-Website-Final#readme",
+  "dependencies": {
+    "next": "^9.2.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}

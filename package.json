@@ -25,6 +25,7 @@
   "homepage": "https://github.com/UncleBen69/Personal-Website-Final#readme",
   "dependencies": {
     "next": "^9.2.1",
+    "next-seo": "^3.4.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   }

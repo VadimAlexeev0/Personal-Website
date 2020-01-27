@@ -8,19 +8,19 @@ class Header extends React.Component {
                 <header>
                     <Link href="/">
                         <a>
-                            <h1>Vadim Alexeev</h1>
+                            <h1>Vadim Alexeev {new Date().getFullYear().toString()}</h1>
                         </a>
                     </Link>
                     <nav>
                         <ul>
                             <li>
-                                <Link href="/about">
-                                    <a className="link">About</a>
+                                <Link href="/cv">
+                                    <a className="link">Experience / CV</a>
                                 </Link>
                             </li>
                             <li>
-                                <Link href="#">
-                                    <a className="link">Blog</a>
+                                <Link href="/projects">
+                                    <a className="link">Projects</a>
                                 </Link>
                             </li>
                         </ul>
@@ -43,9 +43,10 @@ class Header extends React.Component {
                         font-size: 1.25rem;
                         font-weight: bold;
                     }
-
                     li{
                         display: inline;
+                    }
+                    li:not(:last-child){
                         padding-right: 10px;
                     }
                     ul{

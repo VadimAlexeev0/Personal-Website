@@ -9,11 +9,15 @@ class About extends React.Component {
 					title="CV - Vadim Alexeev"
 					description="Vadim Alexeev's CV"
 				/>
+
 				<Layout>
 					<h1>CV:</h1>
-					{/*<h2><a href="#">Download a copy in PDF format</a></h2>*/}
+					<h2>
+						<a href="/cv.pdf">Download a copy in PDF format</a>
+					</h2>
 
 					<hr />
+
 					<section>
 						<h3>Details:</h3>
 						<p>
@@ -41,15 +45,29 @@ class About extends React.Component {
 					<hr />
 
 					<section>
+						<h3>Profile:</h3>
+						<p>
+							I have been developing websites in my own time since
+							2011, starting with basic HTML and CSS. I'm now
+							looking to advance my career in Web Development.
+						</p>
+					</section>
+
+					<hr />
+
+					<section>
 						<h3>Skills:</h3>
 						<ul>
-							<li>Javascript</li>
-							<li>HTML5</li>
-							<li>CSS</li>
-							<li>Node.JS</li>
-							<li>React</li>
-							<li>API's</li>
-							<li>Wordpress</li>
+							<li>Javascript,</li>
+							<li>Web Technologies like HTML5 &#38; CSS,</li>
+							<li>Node.js &#38; NPM,</li>
+							<li>JQuery,</li>
+							<li>
+								React &#38; Frameworks like Next.js and Gatsby,
+							</li>
+							<li>Wordpress,</li>
+							<li>Rest API's,</li>
+							<li>Git.</li>
 						</ul>
 					</section>
 
@@ -59,8 +77,16 @@ class About extends React.Component {
 						<h3>Experience:</h3>
 						<ul>
 							<li>
-								Web Developer at Q-Online.{" "}
-								<b>December 2018 - Current</b>
+								<p>
+									Web Developer at Q-Online.{" "}
+									<b>December 2018 - Current</b>
+								</p>
+								<p>
+									My main responsibility include creating
+									websites using React(GatsbyJS) and
+									WordPress. I leaded a small independent
+									team.
+								</p>
 							</li>
 						</ul>
 					</section>

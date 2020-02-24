@@ -32,12 +32,6 @@ class About extends React.Component {
 							</b>
 						</p>
 						<p>
-							Phone:{" "}
-							<b>
-								<a href="tel:+447393348314">+44 7393 348314</a>
-							</b>
-						</p>
-						<p>
 							Location: <b>West London, United Kingdom</b>
 						</p>
 					</section>

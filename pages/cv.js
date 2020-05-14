@@ -78,7 +78,7 @@ class About extends React.Component {
 								<p>
 									My main responsibility include creating
 									websites using React(GatsbyJS) and
-									WordPress. I lead a small independent
+									WordPress. I led a small independent
 									team.
 								</p>
 							</li>

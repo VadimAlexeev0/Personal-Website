@@ -73,12 +73,12 @@ class About extends React.Component {
 							<li>
 								<p>
 									Web Developer at Q-Online.{" "}
-									<b>December 2018 - Current</b>
+									<b>December 2018 - 2020</b>
 								</p>
 								<p>
 									My main responsibility include creating
 									websites using React(GatsbyJS) and
-									WordPress. I leaded a small independent
+									WordPress. I lead a small independent
 									team.
 								</p>
 							</li>

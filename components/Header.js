@@ -13,6 +13,7 @@ class Header extends React.Component {
 							</h1>
 						</a>
 					</Link>
+					{/*
 					<nav>
 						<ul>
 							<li>
@@ -27,6 +28,7 @@ class Header extends React.Component {
 							</li>
 						</ul>
 					</nav>
+					*/}
 				</header>
 
 				<style jsx>{`

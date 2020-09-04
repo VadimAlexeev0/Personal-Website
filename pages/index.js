@@ -14,7 +14,6 @@ class Index extends React.Component {
 					<h1>
 						<b>Vadim Alexeev</b>, Full Stack Web Developer.
 					</h1>
-					<h2>My personal Website with CV and Projects</h2>
 
 					<h3>You can find me around the internet on:</h3>
 					<ul>

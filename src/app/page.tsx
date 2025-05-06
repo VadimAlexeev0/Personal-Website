@@ -1,6 +1,3 @@
-import { GithubIcon } from "lucide-react";
-import Image from "next/image";
-
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center h-screen space-y-4 text-center">

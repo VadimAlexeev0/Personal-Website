@@ -1,32 +1,32 @@
 {
-  "name": "personal-website-final",
-  "version": "1.0.0",
-  "description": "Personal-Website-Final",
-  "scripts": {
-    "dev": "next",
-    "build": "next build && next export"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/UncleBen69/Personal-Website-Final.git"
-  },
-  "keywords": [
-    "Vadim",
-    "Alexeev",
-    "Vadim A",
-    "VadimA",
-    "Vadim Alexeev",
-    "Valexeev"
-  ],
-  "author": "Vadim Alexeev",
-  "bugs": {
-    "url": "https://github.com/UncleBen69/Personal-Website-Final/issues"
-  },
-  "homepage": "https://github.com/UncleBen69/Personal-Website-Final#readme",
-  "dependencies": {
-    "next": "^9.2.1",
-    "next-seo": "^3.4.0",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0"
-  }
+	"name": "alexeev-site",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev --turbopack",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint",
+		"deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
+		"preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
+		"cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts"
+	},
+	"dependencies": {
+		"@opennextjs/cloudflare": "^1.0.0",
+		"lucide-react": "^0.507.0",
+		"next": "15.3.2",
+		"react": "^19.0.0",
+		"react-dom": "^19.0.0"
+	},
+	"devDependencies": {
+		"@cloudflare/workers-types": "^4.20250506.0",
+		"@tailwindcss/postcss": "^4",
+		"@types/node": "^20",
+		"@types/react": "^19",
+		"@types/react-dom": "^19",
+		"tailwindcss": "^4",
+		"typescript": "^5",
+		"wrangler": "^4.14.1"
+	},
+	"packageManager": "pnpm@10.10.0+sha512.d615db246fe70f25dcfea6d8d73dee782ce23e2245e3c4f6f888249fb568149318637dca73c2c5c8ef2a4ca0d5657fb9567188bfab47f566d1ee6ce987815c39"
 }
